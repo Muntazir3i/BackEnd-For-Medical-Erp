@@ -28,16 +28,24 @@ export const addMedicine = async(req,resp)=>{
 
 
 //update medicine
-export const removeMedicine = async (req,resp)=>{
+export const uptMedicine = async (req,resp)=>{
     const {id} = req.params
+    const {name} = req.body
     const medicine = await readFile();
 
     //check if exist 
-    const existingMedicine = medicine.find(item => item.id === id)
-    if(!existingMedicine){
-        return resp.status(400).json({message:'Cannot update, no item found'})
-    }
-    
+   const index = medicine.findIndex(item => item.id === Number(id));
+   if(index === -1){
+    return resp.status(404).json({message:"Medicine not found"})
+   }
+   const existingMedicine = medicine.find(item => item.name === name)
+   if(existingMedicine){
+       return resp.status(400).json({message:'Medicine Already Exists'})
+   }
+
+   medicine[index] = {...medicine[index], ...req.body};
+   await writeFile(medicine);
+   resp.status(200).json(medicine[index])
 }
 
 

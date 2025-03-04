@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1740997319706,
+    "name": "Ibuprofenn",
+    "category": "Capsule",
+    "manufacturer": "ABC Pharma",
+    "batchNumber": "B67890",
+    "expiryDate": "2026-06-15",
+    "stock": 100,
+    "price": 8
+  },
+  {
+    "id": 1740997890818,
+    "name": "Ibuprofen",
+    "category": "Capsule",
+    "manufacturer": "ABC Pharma",
+    "batchNumber": "B67890",
+    "expiryDate": "2026-06-15",
+    "stock": 100,
+    "price": 8
+  }
+]

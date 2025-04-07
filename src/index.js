@@ -3,6 +3,7 @@ import medicineRouter from './routes/medicine.js'
 import billingRouter from './routes/bills.js'
 import purchaseRouter from './routes/purchase.js'
 import paymentRouter from './routes/payments.js'
+import addSupplierRouter from './routes/addsupplier.js'
 
 
 import cors from 'cors'
@@ -22,6 +23,7 @@ app.use('/api/medicines',medicineRouter)
 app.use('/api/bills',billingRouter)
 app.use('/api/purchase',purchaseRouter)
 app.use('/api/payment',paymentRouter)
+app.use('/api/addSupplier',addSupplierRouter)
 
 app.listen(PORT,()=>{
     console.log(`Server is running on http://localhost:${PORT}`);

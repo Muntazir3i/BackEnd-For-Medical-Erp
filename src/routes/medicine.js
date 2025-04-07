@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getMedicines, addMedicine, uptMedicine } from "../controllers/medicineController.js";
+import { getMedicines, addMedicine, uptMedicine, delMedicine } from "../controllers/medicineController.js";
 const router = Router();
 
 
@@ -15,6 +15,8 @@ router.route('/add-medi').post(addMedicine);
 //update medicine based on id
 router.route('/upt-medi/:id').put(uptMedicine)
 
+//deleted medicine based on id 
+router.route('/del-medi/:id').delete(delMedicine)
 
 
 

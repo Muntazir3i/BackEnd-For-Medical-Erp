@@ -1,8 +1,8 @@
 [
   {
     "id": 1743678982780,
-    "billNumber": "00015",
-    "billDate": "2025-04-03",
+    "invoice": "00015",
+    "date": "2025-04-03",
     "supplierName": "ASHRAF MEDICAL AGENCY",
     "supplierDrugLn": "JK-SGR-112889-90",
     "supplierContact": "9419004467",
@@ -23,13 +23,14 @@
     ],
     "totalAmount": "1157.10",
     "totalGst": "138.85",
-    "total": 1295.9519999999998
+    "total": 1295.9519999999998,
+    "type": "Bill"
   },
   {
     "id": 1743684386588,
-    "billNumber": "05703",
-    "billDate": "2025-04-03",
-    "supplierName": "KOHINOOR PHARMACETICALS",
+    "invoice": "05703",
+    "date": "2025-04-03",
+    "supplierName": "KOHINOOR PHARMACEUTICALS",
     "supplierDrugLn": "WLF2023JK001745/1747",
     "supplierContact": "9858806272",
     "products": [
@@ -43,7 +44,7 @@
         "mrp": "25.87",
         "discount": 0,
         "gstPercentage": "12",
-        "supplier": "KOHINOOR PHARMACETICALS",
+        "supplier": "KOHINOOR PHARMACEUTICALS",
         "category": "Tablet"
       },
       {
@@ -56,18 +57,19 @@
         "mrp": "149",
         "discount": 0,
         "gstPercentage": "12",
-        "supplier": "KOHINOOR PHARMACETICALS",
+        "supplier": "KOHINOOR PHARMACEUTICALS",
         "category": "Tablet"
       }
     ],
     "totalAmount": "905.35",
     "totalGst": "108.64",
-    "total": 1013.9920000000002
+    "total": 1013.9920000000002,
+    "type": "Bill"
   },
   {
     "id": 1743684674793,
-    "billNumber": "0000016",
-    "billDate": "2025-04-03",
+    "invoice": "0000016",
+    "date": "2025-04-03",
     "supplierName": "LONE PHARMACEUTICALS",
     "supplierDrugLn": "20B117590/21B117591",
     "supplierContact": "9906535946",
@@ -114,12 +116,13 @@
     ],
     "totalAmount": "1226.89",
     "totalGst": "147.23",
-    "total": 1374.1167999999998
+    "total": 1374.1167999999998,
+    "type": "Bill"
   },
   {
     "id": 1743686536420,
-    "billNumber": "A002972",
-    "billDate": "2025-03-31",
+    "invoice": "A002972",
+    "date": "2025-03-31",
     "supplierName": "KABOO TRADERS",
     "supplierDrugLn": "JK-SGR-102800/2801",
     "supplierContact": "9796533100",
@@ -244,12 +247,13 @@
     ],
     "totalAmount": "2925.20",
     "totalGst": "351.02",
-    "total": 3276.2239999999997
+    "total": 3276.2239999999997,
+    "type": "Bill"
   },
   {
     "id": 1743687244755,
-    "billNumber": "A002961",
-    "billDate": "2025-03-29",
+    "invoice": "A002961",
+    "date": "2025-03-29",
     "supplierName": "KABOO TRADERS",
     "supplierDrugLn": "JK-SGR-102800/2801",
     "supplierContact": "9796533100",
@@ -309,12 +313,13 @@
     ],
     "totalAmount": "2676.17",
     "totalGst": "321.14",
-    "total": 2997.3103999999994
+    "total": 2997.3103999999994,
+    "type": "Bill"
   },
   {
     "id": 1743768074021,
-    "billNumber": "1SS007580",
-    "billDate": "2025-03-30",
+    "invoice": "1SS007580",
+    "date": "2025-03-30",
     "supplierName": "GALEN AGENCY",
     "supplierDrugLn": "RLF21B2022JK001229",
     "supplierContact": "7006424007",
@@ -361,12 +366,13 @@
     ],
     "totalAmount": "635.13",
     "totalGst": "76.22",
-    "total": 711.3456
+    "total": 711.3456,
+    "type": "Bill"
   },
   {
     "id": 1743769622088,
-    "billNumber": "A000004",
-    "billDate": "2025-04-04",
+    "invoice": "A000004",
+    "date": "2025-04-04",
     "supplierName": "KABOO TRADERS",
     "supplierDrugLn": "JK-SGR-102800/2801",
     "supplierContact": "9796533100",
@@ -452,12 +458,13 @@
     ],
     "totalAmount": "3159.14",
     "totalGst": "379.10",
-    "total": 3538.2312
+    "total": 3538.2312,
+    "type": "Bill"
   },
   {
     "id": 1743769965561,
-    "billNumber": "P2526018",
-    "billDate": "2025-04-04",
+    "invoice": "P2526018",
+    "date": "2025-04-04",
     "supplierName": "PEARL PHARMA",
     "supplierGstin": "",
     "supplierContact": "9419019850",
@@ -505,12 +512,13 @@
     ],
     "totalAmount": "1908.55",
     "totalGst": "229.03",
-    "total": 2137.5816
+    "total": 2137.5816,
+    "type": "Bill"
   },
   {
     "id": 1743833285956,
-    "billNumber": "KC8570",
-    "billDate": "2025-03-31",
+    "invoice": "KC8570",
+    "date": "2025-03-31",
     "supplierName": "KC PHARMACEUTICALS",
     "supplierDrugLn": "JK000731-732",
     "supplierContact": "7006107575",
@@ -557,12 +565,13 @@
     ],
     "totalAmount": "1548.75",
     "totalGst": "185.85",
-    "total": 1734.6
+    "total": 1734.6,
+    "type": "Bill"
   },
   {
     "id": 1743843952183,
-    "billNumber": "A000599",
-    "billDate": "2025-03-31",
+    "invoice": "A000599",
+    "date": "2025-03-31",
     "supplierName": "USMAN TRADERS",
     "supplierDrugLn": "RLF20B2023JK001270/1218",
     "supplierContact": "7006563161",
@@ -583,12 +592,13 @@
     ],
     "totalAmount": "244.80",
     "totalGst": "29.38",
-    "total": 274.17600000000004
+    "total": 274.17600000000004,
+    "type": "Bill"
   },
   {
     "id": 1743844875881,
-    "billNumber": "ZMA-0004",
-    "billDate": "2025-04-04",
+    "invoice": "ZMA-0004",
+    "date": "2025-04-04",
     "supplierName": "ZAHOOR MEDICAL AGENCY",
     "supplierDrugLn": "JK-BRA-102575/102576",
     "supplierContact": "7006037204",
@@ -622,12 +632,13 @@
     ],
     "totalAmount": "1308.90",
     "totalGst": "157.07",
-    "total": 1465.968
+    "total": 1465.968,
+    "type": "Bill"
   },
   {
     "id": 1743850409691,
-    "billNumber": "A000011",
-    "billDate": "2025-04-05",
+    "invoice": "A000011",
+    "date": "2025-04-05",
     "supplierName": "KABOO TRADERS",
     "supplierDrugLn": "JK-SGR-102800/2801",
     "supplierContact": "9796533100",
@@ -661,12 +672,22 @@
     ],
     "totalAmount": "770.35",
     "totalGst": "92.44",
-    "total": 863
+    "total": 863,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "15167",
+    "supplierName": "KABOO TRADERS",
+    "drugLicenseNumber": "",
+    "total": "12000",
+    "id": 1744173813026,
+    "type": "Payment"
   },
   {
     "id": 1744026138077,
-    "billNumber": "AB00100",
-    "billDate": "2025-04-05",
+    "invoice": "AB00100",
+    "date": "2025-04-05",
     "supplierName": "AIJAZ BROTHERS",
     "supplierDrugLn": "RLF20B2022JK000550/RLF21B2022JK000552",
     "supplierContact": "9419443156",
@@ -713,12 +734,13 @@
     ],
     "totalAmount": "1410.86",
     "totalGst": "169.30",
-    "total": 1580
+    "total": 1580,
+    "type": "Bill"
   },
   {
     "id": 1744028705850,
-    "billNumber": "A000032",
-    "billDate": "2025-04-07",
+    "invoice": "A000032",
+    "date": "2025-04-07",
     "supplierName": "KABOO TRADERS",
     "supplierDrugLn": "JK-SGR-102800/2801",
     "supplierContact": "9796533100",
@@ -778,12 +800,13 @@
     ],
     "totalAmount": "2317.94",
     "totalGst": "278.15",
-    "total": 2596
+    "total": 2596,
+    "type": "Bill"
   },
   {
     "id": 1744029145449,
-    "billNumber": "1SS00 ",
-    "billDate": "2025-04-07",
+    "invoice": "1SS00 ",
+    "date": "2025-04-07",
     "supplierName": "BEE AAY TRADERS ",
     "supplierGstin": "",
     "supplierContact": "9419009314",
@@ -830,12 +853,13 @@
     ],
     "totalAmount": "2996.30",
     "totalGst": "359.56",
-    "total": 3356
+    "total": 3356,
+    "type": "Bill"
   },
   {
     "id": 1744032181567,
-    "billNumber": "A000030",
-    "billDate": "2025-04-07",
+    "invoice": "A000030",
+    "date": "2025-04-07",
     "supplierName": "A.S.A ENTERPRISES",
     "supplierDrugLn": "SW 114285/114286",
     "supplierContact": "7780957915",
@@ -947,6 +971,595 @@
     ],
     "totalAmount": "3076.37",
     "totalGst": "322.13",
-    "total": 3398
+    "total": 3398,
+    "type": "Bill"
+  },
+  {
+    "id": 1744107803648,
+    "invoice": "SB000021",
+    "date": "2025-04-07",
+    "supplierName": "SAMEER BIO-GENERICS",
+    "supplierDrugLn": "SW 16077-78",
+    "supplierContact": "9419002028",
+    "products": [
+      {
+        "id": 1744106187723,
+        "name": "DISPO-VAN 3ML",
+        "batchNumber": "347031NE1",
+        "expiryDate": "2028-10-01",
+        "stock": "100",
+        "unitPrice": "2.55",
+        "mrp": "8",
+        "discount": 0,
+        "gstPercentage": 0,
+        "supplier": "SAMEER BIO-GENERICS",
+        "category": "Injection"
+      },
+      {
+        "id": 1744106380964,
+        "name": "GLYCERIN 100GM ELEESA",
+        "batchNumber": "C-1370",
+        "expiryDate": "2027-08-01",
+        "stock": "10",
+        "unitPrice": "48",
+        "mrp": "102",
+        "discount": 0,
+        "gstPercentage": 0,
+        "supplier": "SAMEER BIO-GENERICS",
+        "category": "Syrup"
+      },
+      {
+        "id": 1744106460465,
+        "name": "I.V SET RAMSON",
+        "batchNumber": "G23L020886",
+        "expiryDate": "2028-11-01",
+        "stock": "25",
+        "unitPrice": "15.50",
+        "mrp": "180",
+        "discount": 0,
+        "gstPercentage": 0,
+        "supplier": "SAMEER BIO-GENERICS",
+        "category": "Injection"
+      },
+      {
+        "id": 1744106460466,
+        "name": "I.V CANNULA 22G",
+        "batchNumber": "14644N",
+        "expiryDate": "9999-00-00",
+        "stock": "10",
+        "unitPrice": "15.00",
+        "mrp": "200",
+        "discount": 0,
+        "gstPercentage": 0,
+        "supplier": "SAMEER BIO-GENERICS",
+        "category": "Injection"
+      }
+    ],
+    "totalAmount": "1272.50",
+    "totalGst": "0.00",
+    "total": 1273,
+    "type": "Bill"
+  },
+  {
+    "id": 1744108688225,
+    "invoice": "EA00531",
+    "date": "2025-04-08",
+    "supplierName": "EFF AAY TRADERS",
+    "supplierDrugLn": "SW-4347/4348",
+    "supplierContact": "8082072486",
+    "products": [
+      {
+        "id": 1744108422552,
+        "name": "ACEMYOSET",
+        "batchNumber": "HTN984L",
+        "expiryDate": "2026-10-01",
+        "stock": "10",
+        "unitPrice": "172.43",
+        "mrp": "239.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "EFF AAY TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1744108586863,
+        "name": "AXONET",
+        "batchNumber": "ST-24590",
+        "expiryDate": "2027-01-01",
+        "stock": "3",
+        "unitPrice": "179.64",
+        "mrp": "249.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "EFF AAY TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "2263.22",
+    "totalGst": "271.59",
+    "total": 2535,
+    "type": "Bill"
+  },
+  {
+    "id": 1744108876135,
+    "invoice": "A000248",
+    "date": "2025-04-08",
+    "supplierName": "PHARMAX DRUG HOUSE",
+    "supplierDrugLn": "SW/114591/92",
+    "supplierContact": "7006948892",
+    "products": [
+      {
+        "id": 1744108711460,
+        "name": "CALCIROL MAX",
+        "batchNumber": "PR24006",
+        "expiryDate": "2026-06-01",
+        "stock": "10",
+        "unitPrice": "108.21",
+        "mrp": "150",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "PHARMAX DRUG HOUSE",
+        "category": "Injection"
+      },
+      {
+        "id": 1744108828593,
+        "name": "LINID ",
+        "batchNumber": "1500246",
+        "expiryDate": "2026-12-01",
+        "stock": "10",
+        "unitPrice": "288.10",
+        "mrp": "399.50",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "PHARMAX DRUG HOUSE",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "3963.10",
+    "totalGst": "475.57",
+    "total": 4439,
+    "type": "Bill"
+  },
+  {
+    "id": 1744109249271,
+    "invoice": "A000035",
+    "date": "2025-04-08",
+    "supplierName": "KABOO TRADERS",
+    "supplierDrugLn": "JK-SGR-102800/2801",
+    "supplierContact": "9796533100",
+    "products": [
+      {
+        "id": 1744108914556,
+        "name": "IMOL",
+        "batchNumber": "CGA1112",
+        "expiryDate": "2026-10-01",
+        "stock": "6",
+        "unitPrice": "32.44",
+        "mrp": "44.95",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Syrup"
+      },
+      {
+        "id": 1744109042163,
+        "name": "NC DERM+",
+        "batchNumber": "G14A",
+        "expiryDate": "2026-11-01",
+        "stock": "3",
+        "unitPrice": "59.16",
+        "mrp": "82.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Ointment"
+      },
+      {
+        "id": 1744109136727,
+        "name": "KETORAL DT ",
+        "batchNumber": "E2402414",
+        "expiryDate": "2027-08-01",
+        "stock": "10",
+        "unitPrice": "127.88",
+        "mrp": "177.25",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1744109186365,
+        "name": "TELVAS AM ",
+        "batchNumber": "BPA250026",
+        "expiryDate": "2026-12-01",
+        "stock": "10",
+        "unitPrice": "104.61",
+        "mrp": "145.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "2697.02",
+    "totalGst": "323.64",
+    "total": 3021,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "4649",
+    "supplierName": "KOHINOOR PHARMACEUTICALS",
+    "drugLicenseNumber": "",
+    "total": "1500",
+    "id": 1744189173521,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "37589",
+    "supplierName": "LONE PHARMACEUTICALS",
+    "drugLicenseNumber": "",
+    "total": "3000",
+    "id": 1744189324323,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "8181",
+    "supplierName": "GALEN AGENCY",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744190037497,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "4708",
+    "supplierName": "KC PHARMACEUTICALS",
+    "drugLicenseNumber": "",
+    "total": "1500",
+    "id": 1744190188405,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "7410",
+    "supplierName": "USMAN TRADERS",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744190309140,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "27133",
+    "supplierName": "ASHRAF MEDICAL AGENCY",
+    "drugLicenseNumber": "JK-SGR-112889-90",
+    "total": "1000",
+    "id": 1744190497479,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "4230",
+    "supplierName": "NEW SHEIKH BROTHERS",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744190975481,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "17334",
+    "supplierName": "PHARMA CO",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744191109070,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "10661",
+    "supplierName": "JESSI TRADERS",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744191200141,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-03",
+    "invoice": "21501",
+    "supplierName": "NAVEED MEDICAL AGENCY",
+    "drugLicenseNumber": "",
+    "total": "3000",
+    "id": 1744191598474,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-04",
+    "invoice": "13642",
+    "supplierName": "PEARL PHARMA",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744191956454,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "6785",
+    "supplierName": "J.N TRADERS",
+    "drugLicenseNumber": "",
+    "total": "300",
+    "id": 1744192047083,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "6375",
+    "supplierName": "ZAHOOR & WARIS TRADERS",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192139511,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "12018",
+    "supplierName": "ZAHOOR MEDICAL AGENCY",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192167491,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "6848",
+    "supplierName": "MUDASIR ENTERPRISES",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744192230251,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "8782",
+    "supplierName": "AIJAZ BROTHERS",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744192299783,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "2676",
+    "supplierName": "FARIS ENTERPRISES",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192346744,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "33488",
+    "supplierName": "EMM EMM SMITH",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192383406,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-05",
+    "invoice": "3429",
+    "supplierName": "CYELON PHARMA",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192427820,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-07",
+    "invoice": "72322",
+    "supplierName": "A.S.A ENTERPRISES",
+    "drugLicenseNumber": "",
+    "total": "2000",
+    "id": 1744192596570,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-07",
+    "invoice": "30938",
+    "supplierName": "SAMEER BIO-GENERICS",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192669209,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-07",
+    "invoice": "39093",
+    "supplierName": "ALAMGIR AGENCIES",
+    "drugLicenseNumber": "",
+    "total": "11000",
+    "id": 1744192741863,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "10779",
+    "supplierName": "MOHSIN MEDICAL AGENCY",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744192853301,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "33974",
+    "supplierName": "POLY HYGIENE",
+    "drugLicenseNumber": "",
+    "total": "727",
+    "id": 1744193016899,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "14186",
+    "supplierName": "Z.B AGENCIES",
+    "drugLicenseNumber": "",
+    "total": "300",
+    "id": 1744193098688,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "10276",
+    "supplierName": "NISAR ENTERPRISES",
+    "drugLicenseNumber": "",
+    "total": "300",
+    "id": 1744193188222,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "74114",
+    "supplierName": "MATTO TRADERS",
+    "drugLicenseNumber": "",
+    "total": "2000",
+    "id": 1744193640097,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-08",
+    "invoice": "74114",
+    "supplierName": "UPDATE PHARMA",
+    "drugLicenseNumber": "",
+    "total": "2000",
+    "id": 1744194027782,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-09",
+    "invoice": "17859",
+    "supplierName": "NASU ENTERPRISES",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1744194612726,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-09",
+    "invoice": "3736",
+    "supplierName": "MYSARAH",
+    "drugLicenseNumber": "",
+    "total": "1500",
+    "id": 1744194679424,
+    "type": "Payment"
+  },
+  {
+    "id": 1744195171025,
+    "invoice": "ME0079",
+    "date": "2025-04-05",
+    "supplierName": "MUDASIR ENTERPRISES",
+    "supplierDrugLn": "WLF21B2024JK000415",
+    "supplierContact": "9419477466",
+    "products": [
+      {
+        "id": 1744195036150,
+        "name": "ROSUVAS CV 10",
+        "batchNumber": "FHB1284",
+        "expiryDate": "2026-11-01",
+        "stock": "3",
+        "unitPrice": "144.28",
+        "mrp": "200",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MUDASIR ENTERPRISES",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "432.84",
+    "totalGst": "51.94",
+    "total": 485,
+    "type": "Bill"
+  },
+  {
+    "id": 1744198753023,
+    "invoice": "A000051",
+    "date": "2025-04-09",
+    "supplierName": "KABOO TRADERS",
+    "supplierDrugLn": "JK-SGR-102800/2801",
+    "supplierContact": "9796533100",
+    "products": [
+      {
+        "id": 1744198401065,
+        "name": "STOLIN GUM",
+        "batchNumber": "BSG24008",
+        "expiryDate": "2026-04-01",
+        "stock": "3",
+        "unitPrice": "76.30",
+        "mrp": "105.75",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Ointment"
+      },
+      {
+        "id": 1744198536588,
+        "name": "DYTOR 5",
+        "batchNumber": "4SN2100",
+        "expiryDate": "2027-08-01",
+        "stock": "6",
+        "unitPrice": "56.93",
+        "mrp": "78.90",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1744198571597,
+        "name": "PANTOP D",
+        "batchNumber": "BPL233654",
+        "expiryDate": "2025-10-01",
+        "stock": "10",
+        "unitPrice": "119.04",
+        "mrp": "165.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Capsule"
+      },
+      {
+        "id": 1744198609267,
+        "name": "PROSTAGARD D8",
+        "batchNumber": "OSD84052",
+        "expiryDate": "2026-09-01",
+        "stock": "5",
+        "unitPrice": "185.41",
+        "mrp": "257.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Capsule"
+      },
+      {
+        "id": 1744198662296,
+        "name": "LORFAST AM 100",
+        "batchNumber": "AY24013",
+        "expiryDate": "2026-11-01",
+        "stock": "3",
+        "unitPrice": "104.25",
+        "mrp": "144.50",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Syrup"
+      }
+    ],
+    "totalAmount": "3000.68",
+    "totalGst": "360.08",
+    "total": 3361,
+    "type": "Bill"
   }
 ]

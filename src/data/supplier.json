@@ -53,7 +53,7 @@
     "email": "",
     "address": "",
     "drugLn": "JK-SGR-112889-90",
-    "supplierBalance": ""
+    "supplierBalance": "18312"
   },
   {
     "supplierName": "NEW SHEIKH BROTHERS",
@@ -76,31 +76,31 @@
     "phoneNumber": "9906580223",
     "email": "",
     "address": "",
-    "drugLn": "",
-    "supplierBalance": ""
+    "drugLn": "RLF20B2022JK001115-RLF21B2022JK001123",
+    "supplierBalance": "10651"
   },
   {
     "supplierName": "NAVEED MEDICAL AGENCY",
-    "phoneNumber": "",
+    "phoneNumber": "01942455674",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW 4825, SW/4826",
     "supplierBalance": ""
   },
   {
     "supplierName": "PEARL PHARMA",
-    "phoneNumber": "",
+    "phoneNumber": "9419019850",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "01AKLPM5650M1ZY",
     "supplierBalance": ""
   },
   {
     "supplierName": "J.N TRADERS",
-    "phoneNumber": "",
+    "phoneNumber": "9469100370",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "RLF20B2022JK000487-488",
     "supplierBalance": ""
   },
   {
@@ -113,42 +113,42 @@
   },
   {
     "supplierName": "ZAHOOR MEDICAL AGENCY",
-    "phoneNumber": "",
+    "phoneNumber": "7006037204",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "JK-BRA-102575/102576",
     "supplierBalance": ""
   },
   {
     "supplierName": "MUDASIR ENTERPRISES",
-    "phoneNumber": "",
+    "phoneNumber": "9419477466",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "WLF21B2024JK000415",
     "supplierBalance": "7065"
   },
   {
     "supplierName": "AIJAZ BROTHERS",
-    "phoneNumber": "",
+    "phoneNumber": "9419443156",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "RLF20B2022JK0005500",
     "supplierBalance": ""
   },
   {
     "supplierName": "FARIS ENTERPRISES",
-    "phoneNumber": "",
+    "phoneNumber": "9797908013",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "WLF21B2023JK001288/WLF21B2023JK001282",
     "supplierBalance": ""
   },
   {
     "supplierName": "EMM EMM SMITH",
-    "phoneNumber": "",
+    "phoneNumber": "9419486572",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SB/19299/300",
     "supplierBalance": ""
   },
   {
@@ -161,26 +161,26 @@
   },
   {
     "supplierName": "A.S.A ENTERPRISES",
-    "phoneNumber": "",
+    "phoneNumber": "7780957915",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW 114285/114286",
     "supplierBalance": ""
   },
   {
     "supplierName": "SAMEER BIO-GENERICS",
-    "phoneNumber": "",
+    "phoneNumber": "9419002028",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW 16077-78",
     "supplierBalance": ""
   },
   {
     "supplierName": "ALAMGIR AGENCIES",
-    "phoneNumber": "",
+    "phoneNumber": "6006384749",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "RLF20B2023JK00117/RLF21B2022JK001241",
     "supplierBalance": ""
   },
   {
@@ -217,10 +217,10 @@
   },
   {
     "supplierName": "MATTO TRADERS",
-    "phoneNumber": "",
+    "phoneNumber": "7780913521",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW/16961/62",
     "supplierBalance": ""
   },
   {
@@ -233,6 +233,30 @@
   },
   {
     "supplierName": "NASU ENTERPRISES",
+    "phoneNumber": "7889417035",
+    "email": "",
+    "address": "",
+    "drugLn": "RLF21B2022JK",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "MYSARAH PHARMACEUTICAL",
+    "phoneNumber": "7006822827",
+    "email": "",
+    "address": "",
+    "drugLn": "WLF20B2022JK000356",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "ANAYAT MEDICAL AGENCY",
+    "phoneNumber": "7006959180",
+    "email": "",
+    "address": "",
+    "drugLn": "WLF20B2023JK000733/WLF21B2023JK000737",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "SHAIZAN ENTERPRISES",
     "phoneNumber": "",
     "email": "",
     "address": "",
@@ -240,11 +264,51 @@
     "supplierBalance": ""
   },
   {
-    "supplierName": "MYSARAH",
+    "supplierName": "EMM ARR MEDICAL AGENCY",
+    "phoneNumber": "9622379573",
+    "email": "",
+    "address": "",
+    "drugLn": "JK-SGR-102280/81",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "AHAD PHARMACEUTICALS",
+    "phoneNumber": "8082802051",
+    "email": "",
+    "address": "",
+    "drugLn": "WLF20B2024JK000499",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "MIR MEDICAL AGENCIES",
     "phoneNumber": "",
     "email": "",
     "address": "",
     "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "N.L COMBINES",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "UJALA TRADERS",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "BEE AAY TRADERS",
+    "phoneNumber": "9419009314",
+    "email": "",
+    "address": "",
+    "drugLn": "20B2022JK001219",
     "supplierBalance": ""
   }
 ]

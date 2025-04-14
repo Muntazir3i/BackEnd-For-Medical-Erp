@@ -193,10 +193,10 @@
   },
   {
     "supplierName": "POLY HYGIENE",
-    "phoneNumber": "",
+    "phoneNumber": "9796570727",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "NULL",
     "supplierBalance": ""
   },
   {
@@ -345,6 +345,14 @@
   },
   {
     "supplierName": "NEW NADEEM MEDICAL AGENCY",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "PROMISE AGENCIES",
     "phoneNumber": "",
     "email": "",
     "address": "",

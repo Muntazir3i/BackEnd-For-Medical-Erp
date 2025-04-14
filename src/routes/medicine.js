@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getMedicines, addMedicine, uptMedicine, delMedicine } from "../controllers/medicineController.js";
+import { getMedicines, addMedicine, uptMedicine, delMedicine, decreaseStock } from "../controllers/medicineController.js";
 const router = Router();
 
 
@@ -17,6 +17,9 @@ router.route('/upt-medi/:id').put(uptMedicine)
 
 //deleted medicine based on id 
 router.route('/del-medi/:id').delete(delMedicine)
+
+//decrease stock 
+router.route('/dec-stock/:id').put(decreaseStock)
 
 
 

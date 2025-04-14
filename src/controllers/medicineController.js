@@ -2,9 +2,14 @@ import { readFile, writeFile } from "../models/medicineModel.js";
 
 
 // get all medicine
-export const getMedicines = async(req,resp)=>{
-    const medicine = await readFile();
-    return resp.status(200).json(medicine)
+export const getMedicines = async (req, resp) => {
+    try {
+        const medicine = await readFile();
+        return resp.status(200).json(medicine)
+    } catch (error) {
+        console.error("Error updating medicine:", error);
+        return resp.status(500).json({ message: "Internal server error" })
+    }
 }
 
 // add new medicine
@@ -74,7 +79,7 @@ export const addMedicine = async (req, resp) => {
 export const uptMedicine = async (req, resp) => {
     const { id } = req.params;
     const { name, category } = req.body;
-    
+
     try {
         let medicine = await readFile();
 
@@ -83,25 +88,25 @@ export const uptMedicine = async (req, resp) => {
         if (index === -1) {
             return resp.status(404).json({ message: "Medicine not found." });
         }
-        
+
         // Check if another medicine (not the same ID) has the same name & category
         const existingMedicine = medicine.find(
             item => item.id !== Number(id) &&
-                    item.name.toLowerCase() === name.toLowerCase() &&
-                    item.category.toLowerCase() === category.toLowerCase()
+                item.name.toLowerCase() === name.toLowerCase() &&
+                item.category.toLowerCase() === category.toLowerCase()
         );
-        
+
         if (existingMedicine) {
             return resp.status(400).json({ message: "Medicine with the same name and category already exists." });
         }
-        
+
         // Update only provided fields
         medicine[index] = { ...medicine[index], ...req.body };
-        
+
         // Save changes
         await writeFile(medicine);
         return resp.status(200).json(medicine[index]);
-        
+
     } catch (error) {
         console.error("Error updating medicine:", error);
         return resp.status(500).json({ message: "Internal server error" });
@@ -113,22 +118,46 @@ export const uptMedicine = async (req, resp) => {
 
 
 //delete medicine
-export const delMedicine = async (req,resp) => {
-    const {id} = req.params
+export const delMedicine = async (req, resp) => {
+    const { id } = req.params
     const medicine = await readFile()
 
     //find the medi first
     const filteredMedi = medicine.filter(item => item.id !== Number(id))
 
     //check if exist
-    if(medicine.length === filteredMedi.length){
-        return resp.status(404).json({message:'Medicine not found'})
+    if (medicine.length === filteredMedi.length) {
+        return resp.status(404).json({ message: 'Medicine not found' })
     }
     await writeFile(filteredMedi);
-    resp.status(200).json({message:'Medicine deleted Successfully'})
+    resp.status(200).json({ message: 'Medicine deleted Successfully' })
 }
 
 //decrease the stock when qty is increased in cart
+
+export const decreaseStock = async (req, res) => {
+    const id = req.params.id;
+    try {
+        const medicines = await readFile()
+        const medIndex = medicines.findIndex((m) => m.id === Number(id))
+
+        if (medIndex === -1) {
+            return res.status(404).json({ message: 'Medicine not found' });
+        }
+
+        if (medicines[medIndex].stock <= 0) {
+            return res.status(400).json({ message: 'Out of stock' });
+        }
+
+        medicines[medIndex].stock -= 1;
+        await writeFile(medicines);
+
+        res.json({ message: 'Stock decreased', stock: medicines[medIndex].stock });
+
+    } catch (error) {
+
+    }
+}
 
 
 

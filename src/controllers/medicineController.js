@@ -127,3 +127,15 @@ export const delMedicine = async (req,resp) => {
     await writeFile(filteredMedi);
     resp.status(200).json({message:'Medicine deleted Successfully'})
 }
+
+//decrease the stock when qty is increased in cart
+
+
+
+
+
+
+
+//increase the stock the qty is decreased in cart
+
+

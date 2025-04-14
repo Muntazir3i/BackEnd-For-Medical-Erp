@@ -101,14 +101,14 @@
     "email": "",
     "address": "",
     "drugLn": "RLF20B2022JK000487-488",
-    "supplierBalance": ""
+    "supplierBalance": "8362"
   },
   {
     "supplierName": "ZAHOOR & WARIS TRADERS",
     "phoneNumber": "",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "WLF20B2023JK001875/WLF21B2023JK001879",
     "supplierBalance": ""
   },
   {
@@ -133,7 +133,7 @@
     "email": "",
     "address": "",
     "drugLn": "RLF20B2022JK0005500",
-    "supplierBalance": ""
+    "supplierBalance": "22180"
   },
   {
     "supplierName": "FARIS ENTERPRISES",
@@ -309,6 +309,46 @@
     "email": "",
     "address": "",
     "drugLn": "20B2022JK001219",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "EFF AAY TRADERS",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "SALMAN MEDICAL AGENCY",
+    "phoneNumber": "7051514120",
+    "email": "",
+    "address": "",
+    "drugLn": "WLF20B2023JK001626/WLF21B2023JK001633",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "TARIQ MEDICAL AGENCIES",
+    "phoneNumber": "9419777710",
+    "email": "",
+    "address": "",
+    "drugLn": "SR 13351/52",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "RM SHARING ENTERPRISES",
+    "phoneNumber": "7006949946",
+    "email": "",
+    "address": "",
+    "drugLn": "21021419000642",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "NEW NADEEM MEDICAL AGENCY",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
     "supplierBalance": ""
   }
 ]

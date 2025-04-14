@@ -159,6 +159,27 @@ export const decreaseStock = async (req, res) => {
     }
 }
 
+export const increaseStock = async (req, res) => {
+    const id = req.params.id;
+    try {
+        const medicines = await readFile();
+        const medIndex = medicines.findIndex((m) => m.id === Number(id));
+
+        if (medIndex === -1) {
+            return res.status(404).json({ message: 'Medicine not found' });
+        }
+
+        medicines[medIndex].stock += 1;
+        await writeFile(medicines);
+
+        res.json({ message: 'Stock increased', stock: medicines[medIndex].stock });
+        
+    } catch (error) {
+        res.status(500).json({ message: 'Internal Server Error' });
+    }
+}
+
+
 
 
 

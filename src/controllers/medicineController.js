@@ -199,6 +199,25 @@ export const lowStock = async (req, resp) => {
     }
 }
 
+//controller for out of stock 
+
+export const outOfStock = async (req, resp) => {
+    try {
+        let medicines = await readFile();
+        let outOfStockMeds = medicines.filter((med) => {
+            const stock = Number(med.stock);
+            return stock === 0; // Out of stock condition
+        });
+        return resp.status(200).json(outOfStockMeds);
+    } catch (error) {
+        console.error("Error Fetching Out of Stock medicine:", error);
+        return resp.status(500).json({
+            message: "Internal server error",
+            error: error.message
+        });
+    }
+};
+
 
 
 

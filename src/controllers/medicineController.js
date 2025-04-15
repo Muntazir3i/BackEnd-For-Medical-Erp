@@ -218,6 +218,38 @@ export const outOfStock = async (req, resp) => {
     }
 };
 
+//contoller for expiry
+
+export const checkExpiration = async (req, resp) => {
+    try {
+        // Read the medicines from the local JSON file
+        let medicines = await readFile();
+        
+        // Get current date
+        const now = new Date();
+        
+        // Calculate the date 3 months from now
+        const threeMonthsFromNow = new Date();
+        threeMonthsFromNow.setMonth(threeMonthsFromNow.getMonth() + 3);
+        
+        // Filter medicines based on their expiration date
+        let expiredAndExpiringMeds = medicines.filter((med) => {
+            const expiryDate = new Date(med.expiryDate); // Assuming `expiryDate` is in the medicine object
+            return expiryDate < now || (expiryDate >= now && expiryDate <= threeMonthsFromNow);
+        });
+
+        // Respond with filtered medicines
+        return resp.status(200).json(expiredAndExpiringMeds);
+
+    } catch (error) {
+        console.error("Error Fetching Expired and Expiring Medicines:", error);
+        return resp.status(500).json({
+            message: "Internal server error",
+            error: error.message
+        });
+    }
+};
+
 
 
 

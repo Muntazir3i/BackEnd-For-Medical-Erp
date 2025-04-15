@@ -2177,5 +2177,44 @@
     "gstPercentage": "12",
     "supplier": "PEARL PHARMA",
     "category": "Syrup"
+  },
+  {
+    "id": 1744694369291,
+    "name": "OCCUPOL DX ",
+    "batchNumber": "298",
+    "expiryDate": "2026-09-01",
+    "stock": "5",
+    "unitPrice": "104.90",
+    "mrp": "145.16",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "A.S.A ENTERPRISES",
+    "category": "Ointment"
+  },
+  {
+    "id": 1744694434286,
+    "name": "SOFRAMYCIN CREAM",
+    "batchNumber": "4CH497",
+    "expiryDate": "2027-01-01",
+    "stock": "3",
+    "unitPrice": "43.61",
+    "mrp": "55.77",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "A.S.A ENTERPRISES",
+    "category": "Cream"
+  },
+  {
+    "id": 1744700602097,
+    "name": "MUCOTOP-600",
+    "batchNumber": "QBD014001",
+    "expiryDate": "2026-06-01",
+    "stock": "5",
+    "unitPrice": "205.70",
+    "mrp": "279.00",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "MYSARAH PHARMACEUTICAL",
+    "category": "Tablet"
   }
 ]

@@ -158,6 +158,7 @@ export const decreaseStock = async (req, res) => {
 
     }
 }
+//increase the stock the qty is decreased in cart
 
 export const increaseStock = async (req, res) => {
     const id = req.params.id;
@@ -173,9 +174,28 @@ export const increaseStock = async (req, res) => {
         await writeFile(medicines);
 
         res.json({ message: 'Stock increased', stock: medicines[medIndex].stock });
-        
+
     } catch (error) {
         res.status(500).json({ message: 'Internal Server Error' });
+    }
+}
+
+//controller for low stock 
+
+export const lowStock = async (req, resp) => {
+    try {
+        let medicines = await readFile();
+        let lowStockMeds = medicines.filter((med) => {
+            const stock = Number(med.stock);
+            return stock >= 1 && stock <= 2;
+        });
+        return resp.status(200).json(lowStockMeds)
+    } catch (error) {
+        console.error("Error Fetching Low Stock medicine:", error);
+        return resp.status(500).json({
+            message: "Internal server error",
+            error: error.message
+        });
     }
 }
 
@@ -186,6 +206,8 @@ export const increaseStock = async (req, res) => {
 
 
 
-//increase the stock the qty is decreased in cart
+
+
+
 
 

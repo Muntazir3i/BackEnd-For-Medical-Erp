@@ -358,5 +358,21 @@
     "address": "",
     "drugLn": "",
     "supplierBalance": ""
+  },
+  {
+    "supplierName": "REGAL PHARMA",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "AL SHAMAS TRADERS ",
+    "phoneNumber": "0194-2478137",
+    "email": "",
+    "address": "",
+    "drugLn": "RLF20B2023JK000207,RLF21B2023JK000214",
+    "supplierBalance": ""
   }
 ]

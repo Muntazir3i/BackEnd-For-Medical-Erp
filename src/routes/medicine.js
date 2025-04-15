@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getMedicines, addMedicine, uptMedicine, delMedicine, decreaseStock, increaseStock } from "../controllers/medicineController.js";
+import { getMedicines, addMedicine, uptMedicine, delMedicine, decreaseStock, increaseStock,lowStock } from "../controllers/medicineController.js";
 const router = Router();
 
 
@@ -23,6 +23,9 @@ router.route('/dec-stock/:id').put(decreaseStock)
 
 //increase stock 
 router.route('/inc-stock/:id').put(increaseStock)
+
+//low stock 
+router.route('/low-stock').get(lowStock)
 
 
 

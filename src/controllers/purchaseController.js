@@ -20,6 +20,8 @@ export const addPurchase = async(req,resp)=>{
     return resp.status(200).json(newPurchase)
 }
 
+
+//controller for finding Supplier Transactions 
 export const findTransactions = async (req, resp) => {
     try {
         const { name } = req.params; // Get the supplier name from request parameters
@@ -44,3 +46,31 @@ export const findTransactions = async (req, resp) => {
         });
     }
 };
+
+
+//contoller for finding  payment based on day
+
+export const findDayPayment = async (req, res) => {
+    try {
+        const { date } = req.params; // Extract the date from the request parameters
+        const decodedDate = decodeURIComponent(date);
+
+        const transactions = await readFilePurchase(); // Read all purchase transactions
+
+        // Filter transactions to find payments for the specific date
+        const datePayment = transactions.filter(item =>
+            item.type === 'Payment' && item.date === decodedDate
+        );
+
+        // Respond with the filtered payments
+        return res.status(200).json(datePayment);
+    } catch (error) {
+        console.error("Error Fetching Payments for Date:", error.message); // Log the error
+        // Respond with an error message and status code 500
+        return res.status(500).json({
+            message: "Internal server error",
+            error: error.message,
+        });
+    }
+};
+

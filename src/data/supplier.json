@@ -260,7 +260,7 @@
     "phoneNumber": "",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW/6906/6907",
     "supplierBalance": ""
   },
   {
@@ -297,10 +297,10 @@
   },
   {
     "supplierName": "UJALA TRADERS",
-    "phoneNumber": "",
+    "phoneNumber": "7889622450",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "JK000395/396",
     "supplierBalance": ""
   },
   {
@@ -333,7 +333,7 @@
     "email": "",
     "address": "",
     "drugLn": "SR 13351/52",
-    "supplierBalance": ""
+    "supplierBalance": "3359"
   },
   {
     "supplierName": "RM SHARING ENTERPRISES",
@@ -345,10 +345,10 @@
   },
   {
     "supplierName": "NEW NADEEM MEDICAL AGENCY",
-    "phoneNumber": "",
+    "phoneNumber": "7889417787",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "JK-SGR-112883/84",
     "supplierBalance": ""
   },
   {
@@ -368,7 +368,7 @@
     "supplierBalance": ""
   },
   {
-    "supplierName": "AL SHAMAS TRADERS ",
+    "supplierName": "AL SHAMAS TRADERS",
     "phoneNumber": "0194-2478137",
     "email": "",
     "address": "",
@@ -389,6 +389,30 @@
     "email": "",
     "address": "",
     "drugLn": "JK-SGR000160,000155",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "WALEED AGENCIES ",
+    "phoneNumber": "9419018363",
+    "email": "",
+    "address": "",
+    "drugLn": "NULL",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "SUPER SUN MARKETTING",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "AL MUEED PHARMACEUTICALS",
+    "phoneNumber": "7006281739",
+    "email": "",
+    "address": "",
+    "drugLn": "SR 13351/52",
     "supplierBalance": ""
   }
 ]

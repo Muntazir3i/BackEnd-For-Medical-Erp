@@ -4928,5 +4928,45 @@
     "total": "1246",
     "id": 1744953495957,
     "type": "Payment"
+  },
+  {
+    "id": 1744956352555,
+    "invoice": "KC000315",
+    "date": "2025-04-18",
+    "supplierName": "KC PHARMACEUTICALS",
+    "supplierDrugLn": "JK000731-732",
+    "supplierContact": "7006107575",
+    "products": [
+      {
+        "id": 1744955794021,
+        "name": "UDILIV 300",
+        "batchNumber": "742922D7",
+        "expiryDate": "2028-01-01",
+        "stock": "3",
+        "unitPrice": "711.01",
+        "mrp": "923.95",
+        "discount": 0,
+        "gstPercentage": "5",
+        "category": "Tablet",
+        "supplier": "KC PHARMACEUTICALS"
+      },
+      {
+        "id": 1744956296575,
+        "name": "N MERCAZOLE 5",
+        "batchNumber": "SSL0030",
+        "expiryDate": "2027-02-01",
+        "stock": "1",
+        "unitPrice": "229.67",
+        "mrp": "318.34",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KC PHARMACEUTICALS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "2362.70",
+    "totalGst": "134.21",
+    "total": 2497,
+    "type": "Bill"
   }
 ]

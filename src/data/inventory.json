@@ -3048,5 +3048,31 @@
     "gstPercentage": "12",
     "supplier": "ANAYAT MEDICAL AGENCY",
     "category": "Injection"
+  },
+  {
+    "id": 1744955794021,
+    "name": "UDILIV 300",
+    "batchNumber": "742922D7",
+    "expiryDate": "2028-01-01",
+    "stock": "3",
+    "unitPrice": "711.01",
+    "mrp": "923.95",
+    "discount": 0,
+    "gstPercentage": "5",
+    "category": "Tablet",
+    "supplier": "KC PHARMACEUTICALS"
+  },
+  {
+    "id": 1744956296575,
+    "name": "N MERCAZOLE 5",
+    "batchNumber": "SSL0030",
+    "expiryDate": "2027-02-01",
+    "stock": "1",
+    "unitPrice": "229.67",
+    "mrp": "318.34",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "KC PHARMACEUTICALS",
+    "category": "Tablet"
   }
 ]

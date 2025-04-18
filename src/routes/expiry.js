@@ -7,7 +7,7 @@ const router = Router();
 router.route('/all-expiry').get(getExpiry);
 
 
-router.route('add-expiry').post(addExpiry)
+router.route('/add-expiry').post(addExpiry)
 
 
 

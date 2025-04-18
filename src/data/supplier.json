@@ -289,10 +289,10 @@
   },
   {
     "supplierName": "N.L COMBINES",
-    "phoneNumber": "",
+    "phoneNumber": "7006948835",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "RLF20B2022JK001249/SW8049 RLF21B2022JK001252/SW8050 ",
     "supplierBalance": ""
   },
   {
@@ -413,6 +413,14 @@
     "email": "",
     "address": "",
     "drugLn": "SR 13351/52",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "MANACO AGENCIES",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
     "supplierBalance": ""
   }
 ]

@@ -4968,5 +4968,946 @@
     "totalGst": "134.21",
     "total": 2497,
     "type": "Bill"
+  },
+  {
+    "date": "2025-04-18",
+    "invoice": "13094",
+    "supplierName": "NEW MALROSE PHARMA",
+    "drugLicenseNumber": "",
+    "total": "1000",
+    "id": 1744969911370,
+    "type": "Payment"
+  },
+  {
+    "id": 1744972080686,
+    "invoice": "KC000321",
+    "date": "2025-04-18",
+    "supplierName": "KC PHARMACEUTICALS",
+    "supplierDrugLn": "JK000731-732",
+    "supplierContact": "7006107575",
+    "products": [
+      {
+        "id": 1744972006443,
+        "name": "THYRONORM 37.5",
+        "batchNumber": "TMC25006",
+        "expiryDate": "2026-07-01",
+        "stock": "2",
+        "unitPrice": "142.11",
+        "mrp": "196.96",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KC PHARMACEUTICALS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "284.22",
+    "totalGst": "34.11",
+    "total": 318,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-18",
+    "invoice": "11855",
+    "supplierName": "AL MUEED PHARMACEUTICALS",
+    "drugLicenseNumber": "SR 13351/52",
+    "total": "1000",
+    "id": 1744974076953,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-18",
+    "invoice": "74534",
+    "supplierName": "MATTO TRADERS",
+    "drugLicenseNumber": "SW/16961/62",
+    "total": "2000",
+    "id": 1744974100723,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-18",
+    "invoice": "34455",
+    "supplierName": "PEARL PHARMA",
+    "drugLicenseNumber": "01AKLPM5650M1ZY",
+    "total": "1000",
+    "id": 1744977887585,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-18",
+    "invoice": "M252603340",
+    "supplierName": "MALHOTRA BROTHERS",
+    "drugLicenseNumber": "",
+    "total": "725",
+    "id": 1745037308680,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-19",
+    "invoice": "15032",
+    "supplierName": "KABOO TRADERS",
+    "drugLicenseNumber": "JK-SGR-102800/2801",
+    "total": "12000",
+    "id": 1745039433684,
+    "type": "Payment"
+  },
+  {
+    "id": 1745052288413,
+    "invoice": "JT25-0217",
+    "date": "2025-04-18",
+    "supplierName": "JESSI TRADERS",
+    "supplierDrugLn": "RLF20B2022JK001115-RLF21B2022JK001123",
+    "supplierContact": "9906580223",
+    "products": [
+      {
+        "id": 1745052213315,
+        "name": "MAHAFLOX",
+        "batchNumber": "AIMVX013",
+        "expiryDate": "2025-04-01",
+        "stock": "3",
+        "unitPrice": "77.27",
+        "mrp": "105.14",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "JESSI TRADERS",
+        "category": "Drops"
+      }
+    ],
+    "totalAmount": "231.81",
+    "totalGst": "27.82",
+    "totalDiscount": "0.00",
+    "total": 260,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-19",
+    "invoice": "12140",
+    "supplierName": "ZAHOOR MEDICAL AGENCY",
+    "drugLicenseNumber": "JK-BRA-102575/102576",
+    "total": "500",
+    "id": 1745055629955,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-19",
+    "invoice": "4120",
+    "supplierName": "RM SHARING ENTERPRISES",
+    "drugLicenseNumber": "21021419000642",
+    "total": "200",
+    "id": 1745056786159,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-19",
+    "invoice": "6889",
+    "supplierName": "MUDASIR ENTERPRISES",
+    "drugLicenseNumber": "WLF21B2024JK000415",
+    "total": "500",
+    "id": 1745056804557,
+    "type": "Payment"
+  },
+  {
+    "id": 1745212736295,
+    "invoice": "A000143",
+    "date": "2025-04-19",
+    "supplierName": "KABOO TRADERS",
+    "supplierDrugLn": "JK-SGR-102800/2801",
+    "supplierContact": "9796533100",
+    "products": [
+      {
+        "id": 1745212675012,
+        "name": "STARPRESS XL 50",
+        "batchNumber": "2613",
+        "expiryDate": "2027-09-01",
+        "stock": "3",
+        "unitPrice": "70.78",
+        "mrp": "98.10",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "212.34",
+    "totalGst": "25.48",
+    "totalDiscount": "0.00",
+    "total": 238,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-21",
+    "invoice": "51708",
+    "supplierName": "MUSTAFA PHARMA AGENCIES",
+    "drugLicenseNumber": "16784/85",
+    "total": "200",
+    "id": 1745215122828,
+    "type": "Payment"
+  },
+  {
+    "id": 1745215926188,
+    "invoice": "V000317",
+    "date": "2025-04-19",
+    "supplierName": "MATTO TRADERS",
+    "supplierDrugLn": "SW/16961/62",
+    "supplierContact": "7780913521",
+    "products": [
+      {
+        "id": 1745215096653,
+        "name": "BISONEXT 2.5MG",
+        "batchNumber": "SGXL0314",
+        "expiryDate": "2026-10-01",
+        "stock": "2",
+        "unitPrice": "92.50",
+        "mrp": "126.20",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745215316924,
+        "name": "BISONEXT 5",
+        "batchNumber": "SGXL0331",
+        "expiryDate": "2026-11-01",
+        "stock": "2",
+        "unitPrice": "125.24",
+        "mrp": "173.60",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745215367024,
+        "name": "SOHA EYE DROPS ",
+        "batchNumber": "FHB1233",
+        "expiryDate": "2026-10-01",
+        "stock": "3",
+        "unitPrice": "179.65",
+        "mrp": "249.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Drops"
+      },
+      {
+        "id": 1745215415940,
+        "name": "MILFLOX ",
+        "batchNumber": "GTF1357A",
+        "expiryDate": "2025-10-01",
+        "stock": "4",
+        "unitPrice": "140.67",
+        "mrp": "195.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Drops"
+      },
+      {
+        "id": 1745215481462,
+        "name": "GLYTEARS",
+        "batchNumber": "GTF2461A",
+        "expiryDate": "2026-07-01",
+        "stock": "3",
+        "unitPrice": "99.55",
+        "mrp": "137.64",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Drops"
+      },
+      {
+        "id": 1745215543154,
+        "name": "PANTOCID L",
+        "batchNumber": "SIF2943A",
+        "expiryDate": "2026-12-01",
+        "stock": "3",
+        "unitPrice": "209.22",
+        "mrp": "290.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745215637116,
+        "name": "SOMPRAZ L",
+        "batchNumber": "SIG0270A",
+        "expiryDate": "2027-05-01",
+        "stock": "3",
+        "unitPrice": "230.87",
+        "mrp": "320.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Capsule"
+      },
+      {
+        "id": 1745215682419,
+        "name": "TONACT 10",
+        "batchNumber": "UA02491",
+        "expiryDate": "2026-10-01",
+        "stock": "3",
+        "unitPrice": "59.84",
+        "mrp": "82.95",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745215802362,
+        "name": "TOR 10 ",
+        "batchNumber": "K2500056",
+        "expiryDate": "2026-12-01",
+        "stock": "2",
+        "unitPrice": "49.82",
+        "mrp": "69.75",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "3435.19",
+    "totalGst": "412.22",
+    "totalDiscount": "0.00",
+    "total": 3847,
+    "type": "Bill"
+  },
+  {
+    "id": 1745216436072,
+    "invoice": "ICC-0000176",
+    "date": "2025-04-21",
+    "supplierName": "NEW SHEIKH BROTHERS",
+    "supplierDrugLn": "SW 16047/48",
+    "supplierContact": "7006288865",
+    "products": [
+      {
+        "id": 1745216036901,
+        "name": "FE DAILY ",
+        "batchNumber": "FED-96",
+        "expiryDate": "2026-05-01",
+        "stock": "10",
+        "unitPrice": "203.38",
+        "mrp": "297.00",
+        "discount": 0,
+        "gstPercentage": "18",
+        "supplier": "NEW SHEIKH BROTHERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745216111259,
+        "name": "FE DAILY ",
+        "batchNumber": "FED-102",
+        "expiryDate": "2026-06-01",
+        "stock": "5.5",
+        "unitPrice": "203.38",
+        "mrp": "297.00",
+        "discount": 0,
+        "gstPercentage": "18",
+        "supplier": "NEW SHEIKH BROTHERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745216372787,
+        "name": "FE DAILY",
+        "batchNumber": "FED-96",
+        "expiryDate": "2026-05-01",
+        "stock": "1",
+        "unitPrice": "184.49",
+        "mrp": "297.00",
+        "discount": 0,
+        "gstPercentage": "18",
+        "supplier": "NEW SHEIKH BROTHERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "3336.88",
+    "totalGst": "600.64",
+    "totalDiscount": "0.00",
+    "total": 3938,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-21",
+    "invoice": "24757",
+    "supplierName": "PROMISE AGENCIES",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1745219553888,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-21",
+    "invoice": "1303",
+    "supplierName": "UMAR PHARMACEUTICAL DISTRIBUTORS",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1745227959990,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-21",
+    "invoice": "16294",
+    "supplierName": "REGAL PHARMA",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1745230698212,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-21",
+    "invoice": "72625",
+    "supplierName": "A.S.A ENTERPRISES",
+    "drugLicenseNumber": "SW 114285/114286",
+    "total": "2000",
+    "id": 1745234674366,
+    "type": "Payment"
+  },
+  {
+    "id": 1745234881994,
+    "invoice": "ST036148",
+    "date": "2025-03-05",
+    "supplierName": "SHAHID TRADERS",
+    "supplierDrugLn": "RLF20B2023JK000232-RLF21B2023JK000238",
+    "supplierContact": "9419065453",
+    "products": [
+      {
+        "id": 1745234779142,
+        "name": "VENTIFLO A ",
+        "batchNumber": "VTA-026",
+        "expiryDate": "2026-10-01",
+        "stock": "20",
+        "unitPrice": "144.28",
+        "mrp": "200",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAHID TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "2885.60",
+    "totalGst": "346.27",
+    "totalDiscount": "0.00",
+    "total": 3232,
+    "type": "Bill"
+  },
+  {
+    "id": 1745234957465,
+    "invoice": "ST002098",
+    "date": "2025-04-19",
+    "supplierName": "SHAHID TRADERS",
+    "supplierGstin": "",
+    "supplierContact": "9419065453",
+    "supplierDrugLn": "RLF20B2023JK000232-RLF21B2023JK000238",
+    "products": [
+      {
+        "id": 1745234883314,
+        "name": "VENTIFLO A ",
+        "batchNumber": "VTA-026",
+        "expiryDate": "2026-10-01",
+        "stock": "10",
+        "unitPrice": "144.28",
+        "mrp": "200",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAHID TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "1442.80",
+    "totalGst": "173.14",
+    "totalDiscount": "0.00",
+    "total": 1616,
+    "type": "Bill"
+  },
+  {
+    "id": 1745235122265,
+    "invoice": "ISS 1151",
+    "date": "2025-04-21",
+    "supplierName": "N.L COMBINES",
+    "supplierGstin": "",
+    "supplierContact": "7006948835",
+    "supplierDrugLn": "RLF20B2022JK001249/SW8049 RLF21B2022JK001252/SW8050 ",
+    "products": [
+      {
+        "id": 1745234958508,
+        "name": "DIVEST  200ML ",
+        "batchNumber": "V24L069",
+        "expiryDate": "2026-04-01",
+        "stock": "10",
+        "unitPrice": "88.75",
+        "mrp": "120",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "N.L COMBINES",
+        "category": "Syrup"
+      }
+    ],
+    "totalAmount": "887.50",
+    "totalGst": "106.50",
+    "totalDiscount": "0.00",
+    "total": 994,
+    "type": "Bill"
+  },
+  {
+    "id": 1745235892339,
+    "invoice": "0000169",
+    "date": "2025-04-21",
+    "supplierName": "RM SHARING ENTERPRISES",
+    "supplierDrugLn": "21021419000642",
+    "supplierContact": "7006949946",
+    "products": [
+      {
+        "id": 1745235777151,
+        "name": "ADULT DIAPER 2PCS M",
+        "batchNumber": "IST",
+        "expiryDate": "9999-09-09",
+        "stock": "3",
+        "unitPrice": "52.91",
+        "mrp": "80",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "RM SHARING ENTERPRISES",
+        "category": "Diaper"
+      },
+      {
+        "id": 1745235810285,
+        "name": "ADULT DIAPER 2PCS XL",
+        "batchNumber": "IST ",
+        "expiryDate": "9999-09-09",
+        "stock": "3",
+        "unitPrice": "66.14",
+        "mrp": "100",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "RM SHARING ENTERPRISES",
+        "category": "Diaper"
+      },
+      {
+        "id": 1745235816095,
+        "name": "ADULT DIAPER 2PCS L",
+        "batchNumber": "IST ",
+        "expiryDate": "9999-09-09",
+        "stock": "3",
+        "unitPrice": "59.52",
+        "mrp": "90",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "RM SHARING ENTERPRISES",
+        "category": "Diaper"
+      }
+    ],
+    "totalAmount": "535.71",
+    "totalGst": "64.29",
+    "totalDiscount": "0.00",
+    "total": 600,
+    "type": "Bill"
+  },
+  {
+    "id": 1745238397449,
+    "invoice": "A000382",
+    "date": "2025-04-21",
+    "supplierName": "A.S.A ENTERPRISES",
+    "supplierDrugLn": "SW 114285/114286",
+    "supplierContact": "7780957915",
+    "products": [
+      {
+        "id": 1745238294364,
+        "name": "CNAC ",
+        "batchNumber": "SG4038",
+        "expiryDate": "2026-09-01",
+        "stock": "5",
+        "unitPrice": "234.46",
+        "mrp": "325.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "A.S.A ENTERPRISES",
+        "category": "Drops"
+      },
+      {
+        "id": 1745238353177,
+        "name": "RECITA LITE",
+        "batchNumber": "IUP034004AK",
+        "expiryDate": "2026-08-01",
+        "stock": "5",
+        "unitPrice": "187.15",
+        "mrp": "259.40",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "A.S.A ENTERPRISES",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "2108.05",
+    "totalGst": "252.97",
+    "totalDiscount": "0.00",
+    "total": 2361,
+    "type": "Bill"
+  },
+  {
+    "id": 1745301618604,
+    "invoice": "AA001319",
+    "date": "2025-04-22",
+    "supplierName": "ALAMGIR AGENCIES",
+    "supplierDrugLn": "RLF20B2023JK00117/RLF21B2022JK001241",
+    "supplierContact": "6006384749",
+    "products": [
+      {
+        "id": 1745301409064,
+        "name": "MACUBRITE ",
+        "batchNumber": "YA00106",
+        "expiryDate": "2027-05-01",
+        "stock": "2",
+        "unitPrice": "4910.50",
+        "mrp": "19000",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "ALAMGIR AGENCIES",
+        "category": "Injection"
+      }
+    ],
+    "totalAmount": "9821.00",
+    "totalGst": "1178.52",
+    "totalDiscount": "0.00",
+    "total": 11000,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "32963",
+    "supplierName": "ALAMGIR AGENCIES",
+    "drugLicenseNumber": "RLF20B2023JK00117/RLF21B2022JK001241",
+    "total": "11000",
+    "id": 1745301664684,
+    "type": "Payment"
+  },
+  {
+    "id": 1745301950665,
+    "invoice": "SR 13351/13352",
+    "date": "2025-04-22",
+    "supplierName": "FARIS ENTERPRISES",
+    "supplierDrugLn": "WLF21B2023JK001288/WLF21B2023JK001282",
+    "supplierContact": "9797908013",
+    "products": [
+      {
+        "id": 1745301709114,
+        "name": "SUCRAMOL O ",
+        "batchNumber": "NL4212",
+        "expiryDate": "2026-07-01",
+        "stock": "2",
+        "unitPrice": "222.25",
+        "mrp": "308.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "FARIS ENTERPRISES",
+        "category": "Syrup"
+      },
+      {
+        "id": 1745301821585,
+        "name": "AZEFLO FT",
+        "batchNumber": "MND0298A",
+        "expiryDate": "2026-06-01",
+        "stock": "2",
+        "unitPrice": "416.90",
+        "mrp": "577.70",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "FARIS ENTERPRISES",
+        "category": "Spray"
+      }
+    ],
+    "totalAmount": "1278.30",
+    "totalGst": "153.40",
+    "totalDiscount": "0.00",
+    "total": 1432,
+    "type": "Bill"
+  },
+  {
+    "id": 1745310280087,
+    "invoice": "EA02818",
+    "date": "2025-04-22",
+    "supplierName": "EFF AAY TRADERS",
+    "supplierDrugLn": "SW 4347/4348",
+    "supplierContact": "8082072486",
+    "products": [
+      {
+        "id": 1745310228184,
+        "name": "ACEMYOSET",
+        "batchNumber": "HTN14A",
+        "expiryDate": "2026-12-01",
+        "stock": "10",
+        "unitPrice": "172.43",
+        "mrp": "239.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "EFF AAY TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "1724.30",
+    "totalGst": "206.92",
+    "totalDiscount": "0.00",
+    "total": 1931,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "11022",
+    "supplierName": "MOHSIN MEDICAL AGENCY",
+    "drugLicenseNumber": "SW 18090/91",
+    "total": "500",
+    "id": 1745312594461,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "86971",
+    "supplierName": "SHAHID TRADERS",
+    "drugLicenseNumber": "RLF20B2023JK000232-RLF21B2023JK000238",
+    "total": "1000",
+    "id": 1745317126508,
+    "type": "Payment"
+  },
+  {
+    "id": 1745330182873,
+    "invoice": "A000166",
+    "date": "2025-04-22",
+    "supplierName": "KABOO TRADERS",
+    "supplierDrugLn": "JK-SGR-102800/2801",
+    "supplierContact": "9796533100",
+    "products": [
+      {
+        "id": 1745317104626,
+        "name": "PHYTORAL ",
+        "batchNumber": "PHAS0027",
+        "expiryDate": "2026-07-01",
+        "stock": "3",
+        "unitPrice": "337.64",
+        "mrp": "468.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745330083461,
+        "name": "ZOCON 150MG",
+        "batchNumber": "074I029",
+        "expiryDate": "2027-08-01",
+        "stock": "3",
+        "unitPrice": "58.47",
+        "mrp": "81.04",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "1188.33",
+    "totalGst": "142.60",
+    "totalDiscount": "0.00",
+    "total": 1331,
+    "type": "Bill"
+  },
+  {
+    "id": 1745330255880,
+    "invoice": "V000358",
+    "date": "2025-04-22",
+    "supplierName": "MATTO TRADERS",
+    "supplierGstin": "",
+    "supplierContact": "7780913521",
+    "supplierDrugLn": "SW/16961/62",
+    "products": [
+      {
+        "id": 1745330184350,
+        "name": "SOHA LIQUID GEL",
+        "batchNumber": "KFB0136",
+        "expiryDate": "2026-02-01",
+        "stock": "3",
+        "unitPrice": "359.66",
+        "mrp": "499",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "MATTO TRADERS",
+        "category": "Drops"
+      }
+    ],
+    "totalAmount": "1078.98",
+    "totalGst": "129.48",
+    "totalDiscount": "0.00",
+    "total": 1208,
+    "type": "Bill"
+  },
+  {
+    "id": 1745330385683,
+    "invoice": "1391",
+    "date": "2025-04-03",
+    "supplierName": "ZAHOOR & WARIS TRADERS",
+    "supplierDrugLn": "WLF20B2023JK001875/WLF21B2023JK001879",
+    "supplierContact": "",
+    "products": [
+      {
+        "id": 1745330293477,
+        "name": "HANSAPLAST BANDID",
+        "batchNumber": "390011",
+        "expiryDate": "2027-03-01",
+        "stock": "100",
+        "unitPrice": "2",
+        "mrp": "2.50",
+        "discount": 0,
+        "gstPercentage": 0,
+        "supplier": "ZAHOOR & WARIS TRADERS"
+      }
+    ],
+    "totalAmount": "200.00",
+    "totalGst": "0.00",
+    "totalDiscount": "0.00",
+    "total": 200,
+    "type": "Bill"
+  },
+  {
+    "id": 1745330705966,
+    "invoice": "SE0200",
+    "date": "2025-04-22",
+    "supplierName": "SHAIZAN ENTERPRISES",
+    "supplierDrugLn": "SW/6906/6907",
+    "supplierContact": "",
+    "products": [
+      {
+        "id": 1745330454812,
+        "name": "CLARIBID 500",
+        "batchNumber": "MBK0129",
+        "expiryDate": "2026-09-01",
+        "stock": "3",
+        "unitPrice": "321.92",
+        "mrp": "446.18",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAIZAN ENTERPRISES",
+        "category": "Tablet"
+      },
+      {
+        "id": 1745330480664,
+        "name": "COLOSPA RETARD",
+        "batchNumber": "CRA24008",
+        "expiryDate": "2027-02-01",
+        "stock": "2",
+        "unitPrice": "420.58",
+        "mrp": "582.86",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAIZAN ENTERPRISES",
+        "category": "Capsule"
+      },
+      {
+        "id": 1745330497914,
+        "name": "CREMAFFIN PLUS",
+        "batchNumber": "NXK0218",
+        "expiryDate": "2027-11-01",
+        "stock": "3",
+        "unitPrice": "236.38",
+        "mrp": "327.58",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAIZAN ENTERPRISES",
+        "category": "Syrup"
+      },
+      {
+        "id": 1745330509256,
+        "name": "DELETUS D PLUS",
+        "batchNumber": "ALK0175",
+        "expiryDate": "2026-02-01",
+        "stock": "5.50",
+        "unitPrice": "110.40",
+        "mrp": "152.98",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAIZAN ENTERPRISES",
+        "category": "Syrup"
+      },
+      {
+        "id": 1745330516721,
+        "name": "NEXOVAS 10",
+        "batchNumber": "18241566A",
+        "expiryDate": "2026-07-01",
+        "stock": "3",
+        "unitPrice": "148.83",
+        "mrp": "206.25",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "SHAIZAN ENTERPRISES",
+        "category": "Tablet"
+      }
+    ],
+    "totalAmount": "3569.75",
+    "totalGst": "428.37",
+    "totalDiscount": "0.00",
+    "total": 3998,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "74572",
+    "supplierName": "MATTO TRADERS",
+    "drugLicenseNumber": "SW/16961/62",
+    "total": "2000",
+    "id": 1745330958643,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "6942",
+    "supplierName": "UPDATE PHARMA",
+    "drugLicenseNumber": "",
+    "total": "500",
+    "id": 1745330985102,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-22",
+    "invoice": "18836",
+    "supplierName": "NASU ENTERPRISES",
+    "drugLicenseNumber": "RLF21B2022JK",
+    "total": "200",
+    "id": 1745331003169,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-23",
+    "invoice": "3836",
+    "supplierName": "MYSARAH PHARMACEUTICAL",
+    "drugLicenseNumber": "WLF20B2022JK000356",
+    "total": "1000",
+    "id": 1745392110910,
+    "type": "Payment"
+  },
+  {
+    "id": 1745405399951,
+    "invoice": "AMA-000453",
+    "date": "2025-04-23",
+    "supplierName": "ASHRAF MEDICAL AGENCY",
+    "supplierDrugLn": "JK-SGR-112889-90",
+    "supplierContact": "9419004467",
+    "products": [
+      {
+        "id": 1745405293038,
+        "name": "REPERI GEL 30 MG",
+        "batchNumber": "ZA001",
+        "expiryDate": "2026-11-01",
+        "stock": "3",
+        "unitPrice": "303.57",
+        "mrp": "425.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "ASHRAF MEDICAL AGENCY",
+        "category": "Ointment"
+      }
+    ],
+    "totalAmount": "910.71",
+    "totalGst": "109.29",
+    "totalDiscount": "0.00",
+    "total": 1020,
+    "type": "Bill"
   }
 ]

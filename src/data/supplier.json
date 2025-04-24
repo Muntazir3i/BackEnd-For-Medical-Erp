@@ -60,7 +60,7 @@
     "phoneNumber": "7006288865",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW 16047/48",
     "supplierBalance": ""
   },
   {
@@ -313,10 +313,10 @@
   },
   {
     "supplierName": "EFF AAY TRADERS",
-    "phoneNumber": "",
+    "phoneNumber": "8082072486",
     "email": "",
     "address": "",
-    "drugLn": "",
+    "drugLn": "SW 4347/4348",
     "supplierBalance": ""
   },
   {
@@ -421,6 +421,46 @@
     "email": "",
     "address": "",
     "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "NEW MALROSE PHARMA",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "MALHOTRA BROTHERS",
+    "phoneNumber": "9906045680",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "MUSTAFA PHARMA AGENCIES",
+    "phoneNumber": "7006954978",
+    "email": "",
+    "address": "",
+    "drugLn": "16784/85",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "UMAR PHARMACEUTICAL DISTRIBUTORS",
+    "phoneNumber": "",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "SHAHID TRADERS",
+    "phoneNumber": "9419065453",
+    "email": "",
+    "address": "",
+    "drugLn": "RLF20B2023JK000232-RLF21B2023JK000238",
     "supplierBalance": ""
   }
 ]

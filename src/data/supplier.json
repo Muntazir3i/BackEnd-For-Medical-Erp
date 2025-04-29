@@ -29,7 +29,7 @@
     "email": "",
     "address": "",
     "drugLn": "RLF21B2022JK001229",
-    "supplierBalance": ""
+    "supplierBalance": "9019"
   },
   {
     "supplierName": "KC PHARMACEUTICALS",
@@ -461,6 +461,30 @@
     "email": "",
     "address": "",
     "drugLn": "RLF20B2023JK000232-RLF21B2023JK000238",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "PHARMAX DRUG HOUSE",
+    "phoneNumber": "7006948892",
+    "email": "",
+    "address": "",
+    "drugLn": "SW/11459/92",
+    "supplierBalance": "2049"
+  },
+  {
+    "supplierName": "APEX PHARMA ASSOCIATES",
+    "phoneNumber": "9419484032",
+    "email": "",
+    "address": "",
+    "drugLn": "",
+    "supplierBalance": ""
+  },
+  {
+    "supplierName": "ESS ARR AGENCY",
+    "phoneNumber": "9697379455",
+    "email": "",
+    "address": "",
+    "drugLn": "SW 01/256/257",
     "supplierBalance": ""
   }
 ]

@@ -5,6 +5,7 @@ import purchaseRouter from './routes/purchase.js'
 import paymentRouter from './routes/payments.js'
 import addSupplierRouter from './routes/addsupplier.js'
 import expiryRouter from './routes/expiry.js'
+import supplierRouter from './routes/supplierRouter.js'
 
 
 import cors from 'cors'
@@ -26,6 +27,7 @@ app.use('/api/purchase',purchaseRouter)
 app.use('/api/payment',paymentRouter)
 app.use('/api/addSupplier',addSupplierRouter)
 app.use('/api/expiry',expiryRouter)
+app.use('/api/supplier',supplierRouter)
 
 app.listen(PORT,()=>{
     console.log(`Server is running on http://localhost:${PORT}`);

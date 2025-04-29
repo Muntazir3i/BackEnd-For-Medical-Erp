@@ -4,10 +4,10 @@ import db from "../db/db.js";
 db.prepare(`
   CREATE TABLE IF NOT EXISTS suppliers (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    contact TEXT,
-    email TEXT,
-    drugLicenceNo TEXT
+    supplierName TEXT NOT NULL,
+    phoneNumber TEXT,
+    drugLn TEXT,
+    supplierBalance TEXT
   )
 `).run();
 

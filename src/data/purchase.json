@@ -7486,5 +7486,74 @@
     "total": "720",
     "id": 1745936534353,
     "type": "Payment"
+  },
+  {
+    "id": 1745993179896,
+    "invoice": "A000730",
+    "date": "2025-04-29",
+    "supplierName": "NASU ENTERPRISES",
+    "supplierDrugLn": "RLF21B2022JK",
+    "supplierContact": "7889417035",
+    "products": [
+      {
+        "id": 1745992919668,
+        "name": "DOLO FEVOMETER",
+        "batchNumber": "DFMG003",
+        "expiryDate": "2026-11-01",
+        "stock": "5",
+        "unitPrice": "108.00",
+        "mrp": "249.00",
+        "discount": 0,
+        "gstPercentage": "18",
+        "supplier": "NASU ENTERPRISES",
+        "category": "Test Kit"
+      }
+    ],
+    "totalAmount": "540.00",
+    "totalGst": "97.20",
+    "totalDiscount": "0.00",
+    "total": 637,
+    "type": "Bill"
+  },
+  {
+    "id": 1745999649985,
+    "invoice": "BOS2500151",
+    "date": "2025-04-28",
+    "supplierName": "PROMISE AGENCIES",
+    "supplierDrugLn": "",
+    "supplierContact": "",
+    "products": [
+      {
+        "id": 1745999210777,
+        "name": "SOFY BODYFIT PRO XL",
+        "batchNumber": "NULL",
+        "expiryDate": "9999-09-09",
+        "stock": "6",
+        "unitPrice": "37.50",
+        "mrp": "45",
+        "discount": "10",
+        "gstPercentage": 0,
+        "supplier": "PROMISE AGENCIES",
+        "category": "Sanitary Pads"
+      },
+      {
+        "id": 1745999334095,
+        "name": "SOFY ANTIBACTERIA XL ",
+        "batchNumber": "NULL",
+        "expiryDate": "9999-09-09",
+        "stock": "6",
+        "unitPrice": "58.33",
+        "mrp": "70",
+        "discount": "10",
+        "gstPercentage": 0,
+        "supplier": "PROMISE AGENCIES",
+        "category": "Sanitary Pads"
+      }
+    ],
+    "totalAmount": "574.98",
+    "totalGst": "0.00",
+    "totalDiscount": "57.50",
+    "total": 517,
+    "type": "Bill"
   }
 ]

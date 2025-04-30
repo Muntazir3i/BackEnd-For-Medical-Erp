@@ -2,7 +2,7 @@ import db from "../db/db.js";
 
 export function addSupplier({ supplierName, phoneNumber, drugLn, supplierBalance }) {
   const stmt = db.prepare(`
-    INSERT INTO suppliers (name, contact, email, drugLicenceNo)
+    INSERT INTO suppliers (supplierName, phoneNumber, drugLn, supplierBalance)
     VALUES (?, ?, ?, ?)
   `);
   const info = stmt.run(supplierName, phoneNumber, drugLn, supplierBalance);

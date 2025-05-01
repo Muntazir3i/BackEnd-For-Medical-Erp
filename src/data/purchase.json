@@ -1450,7 +1450,7 @@
   {
     "date": "2025-04-09",
     "invoice": "3736",
-    "supplierName": "MYSARAH",
+    "supplierName": "MYSARAH PHARMACEUTICAL",
     "drugLicenseNumber": "",
     "total": "1500",
     "id": 1744194679424,
@@ -7658,6 +7658,15 @@
     "drugLicenseNumber": "WLF20B2022JK000356",
     "total": "1000",
     "id": 1746019889382,
+    "type": "Payment"
+  },
+  {
+    "date": "2025-04-26",
+    "invoice": "C/N 10010",
+    "supplierName": "MYSARAH PHARMACEUTICAL",
+    "drugLicenseNumber": "WLF20B2022JK000356",
+    "total": "6915",
+    "id": 1746075279345,
     "type": "Payment"
   }
 ]

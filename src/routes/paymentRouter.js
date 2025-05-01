@@ -1,5 +1,5 @@
 import express from 'express';
-import { addPayment,fetchAllPayments } from '../controllers/paymentControllerSql.js';
+import { addPayment,fetchAllPayments,fetchPaymentsByDate } from '../controllers/paymentControllerSql.js';
 
 const router = express.Router();
 
@@ -20,6 +20,17 @@ router.get('/payments', (req, res) => {
   } catch (error) {
     console.error('Error fetching payments:', error);
     res.status(500).json({ error: 'Failed to fetch payments' });
+  }
+});
+
+router.get('/payments/date/:date', (req, res) => {
+  try {
+    const date = req.params.date; // Get the date from the route parameter
+    const payments = fetchPaymentsByDate(date);
+    res.json(payments);
+  } catch (error) {
+    console.error('Error fetching payments by date:', error);
+    res.status(500).json({ error: 'Failed to fetch payments by date' });
   }
 });
 

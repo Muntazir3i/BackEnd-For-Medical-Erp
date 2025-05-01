@@ -10,9 +10,12 @@ export function fetchAllData() {
     const bills = billsQuery.all(); // Fetch all bills
     const payments = paymentsQuery.all(); // Fetch all payments
   
-    return { bills, payments };
+    return {bills, payments };
   }
 
 db.exec('PRAGMA foreign_keys = ON');
+
+
+
 
 export default db;

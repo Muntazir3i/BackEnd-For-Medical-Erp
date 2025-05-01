@@ -4516,5 +4516,44 @@
     "gstPercentage": "12",
     "supplier": "HAMDAN TRADERS",
     "category": "Syrup"
+  },
+  {
+    "id": 1746086809243,
+    "name": "test",
+    "batchNumber": "123",
+    "expiryDate": "2025-05-01",
+    "stock": "123",
+    "unitPrice": "123",
+    "mrp": "123",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "munti",
+    "category": "Capsule"
+  },
+  {
+    "id": 1746086809243,
+    "name": "test",
+    "batchNumber": "123",
+    "expiryDate": "2025-05-01",
+    "stock": "123",
+    "unitPrice": "123",
+    "mrp": "123",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "munti",
+    "category": "Capsule"
+  },
+  {
+    "id": 1746086809243,
+    "name": "test",
+    "batchNumber": "123",
+    "expiryDate": "2025-05-01",
+    "stock": "123",
+    "unitPrice": "123",
+    "mrp": "123",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "munti",
+    "category": "Capsule"
   }
 ]

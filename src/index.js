@@ -8,6 +8,7 @@ import supplierRoutes from './routes/supplierRouter.js'
 import billRouterSql from './routes/billRouter.js'
 import paymentRouterSql from './routes/paymentRouter.js'
 import './setup/createSupplierTable.js'
+import './setup/createBillsPaymnetTable.js'
 
 
 import cors from 'cors'

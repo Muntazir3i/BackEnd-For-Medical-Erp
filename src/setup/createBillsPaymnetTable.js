@@ -39,3 +39,5 @@ CREATE TABLE IF NOT EXISTS payments (
   total REAL
 );
 `);
+
+console.log('✅ Tables created (if not already present)');

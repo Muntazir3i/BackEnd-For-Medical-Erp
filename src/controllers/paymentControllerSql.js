@@ -18,4 +18,13 @@ function addPayment(payment) {
   return { message: 'Payment recorded', paymentId: payment.id };
 }
 
-export { addPayment };
+function fetchAllPayments() {
+  const query = db.prepare(`
+    SELECT * FROM payments
+  `);
+
+  return query.all(); // Fetches all rows from the payments table
+}
+
+
+export { addPayment,fetchAllPayments };

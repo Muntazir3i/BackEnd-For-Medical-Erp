@@ -7555,5 +7555,109 @@
     "totalDiscount": "57.50",
     "total": 517,
     "type": "Bill"
+  },
+  {
+    "id": 1746008762740,
+    "invoice": "A000226",
+    "date": "2025-04-30",
+    "supplierName": "KABOO TRADERS",
+    "supplierDrugLn": "JK-SGR-102800/2801",
+    "supplierContact": "9796533100",
+    "products": [
+      {
+        "id": 1746003878364,
+        "name": "CIPLOX D",
+        "batchNumber": "4L80834",
+        "expiryDate": "2026-12-01",
+        "stock": "5",
+        "unitPrice": "19.15",
+        "mrp": "26.55",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Drops"
+      },
+      {
+        "id": 1746003911556,
+        "name": "POLYBION CZS ACTIVE",
+        "batchNumber": "5014C84301",
+        "expiryDate": "2026-06-01",
+        "stock": "3",
+        "unitPrice": "160.64",
+        "mrp": "223.12",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Tablet"
+      },
+      {
+        "id": 1746003923892,
+        "name": "POLYBION ACTIVE ",
+        "batchNumber": "5004C84801",
+        "expiryDate": "2026-06-01",
+        "stock": "3",
+        "unitPrice": "213.16",
+        "mrp": "295.46",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Syrup"
+      },
+      {
+        "id": 1746003931959,
+        "name": "MEGAHEAL",
+        "batchNumber": "VAB2501",
+        "expiryDate": "2026-12-01",
+        "stock": "3",
+        "unitPrice": "97.40",
+        "mrp": "135.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "KABOO TRADERS",
+        "category": "Cream"
+      }
+    ],
+    "totalAmount": "1509.35",
+    "totalGst": "181.12",
+    "totalDiscount": "0.00",
+    "total": 1690,
+    "type": "Bill"
+  },
+  {
+    "id": 1746008863293,
+    "invoice": "AH000162",
+    "date": "2025-04-30",
+    "supplierName": "HAMDAN TRADERS",
+    "supplierDrugLn": "",
+    "supplierContact": "9419069771",
+    "products": [
+      {
+        "id": 1746008779599,
+        "name": "EATMORE ",
+        "batchNumber": "EM-029",
+        "expiryDate": "2027-12-01",
+        "stock": "10",
+        "unitPrice": "102.53",
+        "mrp": "145.00",
+        "discount": 0,
+        "gstPercentage": "12",
+        "supplier": "HAMDAN TRADERS",
+        "category": "Syrup"
+      }
+    ],
+    "totalAmount": "1025.30",
+    "totalGst": "123.04",
+    "totalDiscount": "0.00",
+    "total": 1148,
+    "type": "Bill"
+  },
+  {
+    "date": "2025-04-30",
+    "invoice": "3878",
+    "supplierName": "MYSARAH PHARMACEUTICAL",
+    "drugLicenseNumber": "WLF20B2022JK000356",
+    "total": "1000",
+    "id": 1746019889382,
+    "type": "Payment"
   }
 ]

@@ -4451,5 +4451,70 @@
     "gstPercentage": 0,
     "supplier": "PROMISE AGENCIES",
     "category": "Sanitary Pads"
+  },
+  {
+    "id": 1746003878364,
+    "name": "CIPLOX D",
+    "batchNumber": "4L80834",
+    "expiryDate": "2026-12-01",
+    "stock": "5",
+    "unitPrice": "19.15",
+    "mrp": "26.55",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "KABOO TRADERS",
+    "category": "Drops"
+  },
+  {
+    "id": 1746003911556,
+    "name": "POLYBION CZS ACTIVE",
+    "batchNumber": "5014C84301",
+    "expiryDate": "2026-06-01",
+    "stock": "3",
+    "unitPrice": "160.64",
+    "mrp": "223.12",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "KABOO TRADERS",
+    "category": "Tablet"
+  },
+  {
+    "id": 1746003923892,
+    "name": "POLYBION ACTIVE ",
+    "batchNumber": "5004C84801",
+    "expiryDate": "2026-06-01",
+    "stock": "3",
+    "unitPrice": "213.16",
+    "mrp": "295.46",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "KABOO TRADERS",
+    "category": "Syrup"
+  },
+  {
+    "id": 1746003931959,
+    "name": "MEGAHEAL",
+    "batchNumber": "VAB2501",
+    "expiryDate": "2026-12-01",
+    "stock": "3",
+    "unitPrice": "97.40",
+    "mrp": "135.00",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "KABOO TRADERS",
+    "category": "Cream"
+  },
+  {
+    "id": 1746008779599,
+    "name": "EATMORE ",
+    "batchNumber": "EM-029",
+    "expiryDate": "2027-12-01",
+    "stock": "10",
+    "unitPrice": "102.53",
+    "mrp": "145.00",
+    "discount": 0,
+    "gstPercentage": "12",
+    "supplier": "HAMDAN TRADERS",
+    "category": "Syrup"
   }
 ]

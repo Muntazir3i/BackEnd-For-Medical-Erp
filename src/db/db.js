@@ -1,6 +1,6 @@
 import Database from 'better-sqlite3';
 
-const db = new Database('mediGo.db'); // Will create if doesn't exist
+const db = new Database('supplier.db'); // Will create if doesn't exist
 
 export default db;
 

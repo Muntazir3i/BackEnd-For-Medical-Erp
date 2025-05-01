@@ -3,7 +3,6 @@ import medicineRouter from './routes/medicine.js'
 import billingRouter from './routes/bills.js'
 import purchaseRouter from './routes/purchase.js'
 import paymentRouter from './routes/payments.js'
-import addSupplierRouter from './routes/addsupplier.js'
 import expiryRouter from './routes/expiry.js'
 import supplierRoutes from './routes/supplierRouter.js'
 import './setup/createSupplierTable.js'
@@ -26,7 +25,6 @@ app.use('/api/medicines',medicineRouter)
 app.use('/api/bills',billingRouter)
 app.use('/api/purchase',purchaseRouter)
 app.use('/api/payment',paymentRouter)
-app.use('/api/addSupplier',addSupplierRouter)
 app.use('/api/expiry',expiryRouter)
 app.use('/api/supplier',supplierRoutes)
 

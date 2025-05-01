@@ -5,6 +5,8 @@ import purchaseRouter from './routes/purchase.js'
 import paymentRouter from './routes/payments.js'
 import expiryRouter from './routes/expiry.js'
 import supplierRoutes from './routes/supplierRouter.js'
+import billRouterSql from './routes/billRouter.js'
+import paymentRouterSql from './routes/paymentRouter.js'
 import './setup/createSupplierTable.js'
 
 
@@ -27,6 +29,8 @@ app.use('/api/purchase',purchaseRouter)
 app.use('/api/payment',paymentRouter)
 app.use('/api/expiry',expiryRouter)
 app.use('/api/supplier',supplierRoutes)
+app.use('/api/sqlbills', billRouterSql);
+app.use('/api/sqlpayment', paymentRouterSql);
 
 app.listen(PORT,()=>{
     console.log(`Server is running on http://localhost:${PORT}`);

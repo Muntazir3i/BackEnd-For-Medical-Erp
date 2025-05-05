@@ -15,6 +15,8 @@ export function fetchAllData() {
 
 db.exec('PRAGMA foreign_keys = ON');
 
+db.exec(`ALTER TABLE payments ADD COLUMN type TEXT`);
+
 
 
 

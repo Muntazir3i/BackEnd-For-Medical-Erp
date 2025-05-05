@@ -13,11 +13,16 @@ export function fetchAllData() {
     return {bills, payments };
   }
 
+  export function fetchDataBySupplier(supplierName) {
+    const billsQuery = db.prepare('SELECT * FROM bills WHERE supplierName = ?');
+    const paymentsQuery = db.prepare('SELECT * FROM payments WHERE supplierName = ?');
+  
+    const bills = billsQuery.all(supplierName);
+    const payments = paymentsQuery.all(supplierName);
+  
+    return { bills, payments };
+  }
+
 db.exec('PRAGMA foreign_keys = ON');
-
-db.exec(`ALTER TABLE payments ADD COLUMN type TEXT`);
-
-
-
 
 export default db;

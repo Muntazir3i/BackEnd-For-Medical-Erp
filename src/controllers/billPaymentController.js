@@ -1,25 +1,25 @@
-import { fetchAllData } from '../db/billPayment.js';
+import { fetchDataBySupplier } from '../db/billPayment.js';
 
-export async function getAllRecords(req, res) {
+export function getAllRecords(req, res) {
   try {
-    const { name } = req.body; // Extract name from the request body
-
-    if (!name) {
+    const { supplierName } = req.query;
+    if (!supplierName) {
       return res.status(400).json({ error: 'Supplier name is required' });
     }
 
-    const fetchData = await fetchAllData(); // Fetch bills and payments from the database
+    const data = fetchDataBySupplier(supplierName);
+    const allInOneData = [...data.bills, ...data.payments];
 
-    // Ensure the fetched data has the expected structure
-    const bills = Array.isArray(fetchData.bills) ? fetchData.bills : [];
-    const payments = Array.isArray(fetchData.payments) ? fetchData.payments : [];
+    // Normalize and sort by date (assumes 'date', 'billDate', or 'paymentDate' exists)
+    const sortedData = allInOneData
+      .map(entry => ({
+        ...entry,
+        _normalizedDate: new Date(entry.date || entry.billDate || entry.paymentDate)
+      }))
+      .sort((a, b) => a._normalizedDate - b._normalizedDate)
+      .map(({ _normalizedDate, ...rest }) => rest); // remove _normalizedDate before returning
 
-    // Combine and filter records
-    const allInOne = [...bills, ...payments];
-    const filteredRecords = allInOne.filter((data) => data.supplierName === name);
-
-    // Respond with the filtered records
-    return res.status(200).json(filteredRecords);
+    return res.status(200).json(sortedData);
   } catch (error) {
     console.error('Error fetching data:', error.message);
     return res.status(500).json({ error: 'Failed to fetch data' });

@@ -27,8 +27,6 @@ app.use(express.json())
 
 app.use('/api/medicines',medicineRouter)
 app.use('/api/bills',billingRouter)
-app.use('/api/purchase',purchaseRouter)
-app.use('/api/payment',paymentRouter)
 app.use('/api/expiry',expiryRouter)
 app.use('/api/supplier',supplierRoutes)
 app.use('/api/sqlbills', billRouterSql);

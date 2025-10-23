@@ -6,7 +6,7 @@ const router = express.Router();
 router.get('/medicines/search/:name',(req,resp)=>{
     try {
         const name = req.params.name;
-        const medicines = fetchSearchMed(medName);
+        const medicines = fetchSearchMed(name);
         resp.json(medicines);
     } catch (error) {
         console.log('Error Fetching Searched Medicine:' ,error);

@@ -1,5 +1,5 @@
 import express from 'express';
-import {fetchAllMedicines} from '../controllers/MedicinesControllerSql'
+import { fetchAllMedicines } from '../controllers/MedicinesControllerSql.js';
 
 const router = express.Router();
 
@@ -12,3 +12,5 @@ router.get('/medicines', (req, res) => {
       res.status(500).json({ error: 'Failed to fetch payments' });
     }
   });
+
+  export default router

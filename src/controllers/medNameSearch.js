@@ -6,7 +6,7 @@ export function fetchSearchMed(name) {
     FROM bill_products
     WHERE name LIKE ?
     ORDER BY id DESC
-    LIMIT 2;
+    LIMIT 5;
             `);
     return query.all(`${name}%`);        
 }
